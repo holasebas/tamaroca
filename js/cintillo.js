@@ -34,4 +34,4 @@ function cintillo_animation(speed){
 cintillo_animation(3);
 setInterval(()=>{
     cintillo_animation(3)
-}, 7000 * 3)
+}, 6000 * 3)
