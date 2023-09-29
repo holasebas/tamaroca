@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en" class="h-100">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+        <link href="css/style.css" rel="stylesheet"  />
+    <title>Tama Roca</title>
+</head>
+<body class="h-100" onload="">
+
+    <div class="container-fluid overflow-hidden position-relative " style="height: 100%;">
+
+        <video id="background-video" autoplay loop muted poster="https://assets.codepen.io/6093409/river.jpg">
+            <source src="assets/bg_home_blank.mp4" type="video/mp4">
+        </video>
+
+        <div id="home_animation">
+
+
+            <div class="radio border">
+
+                <div id="l2" class="l">
+                    <div id="ll2" class="ll"></div>
+                </div>
+                <div id="l3" class="l">
+                    <div id="ll3" class="ll"></div>
+                </div>
+
+            </div>
+        
+
+            <div id="pellizco-anchor" class="pellizco-anchor border">
+                <div id="pellizco" class="border">
+                    <div id="guide"></div>
+
+                    <div id="l4" class="l">
+                        <div id="ll4" class="ll"></div>
+                    </div>
+                    
+                    
+    
+                    <img width="100%" id="contorno-a" class="contorno" src="assets/pellizco_contorno.png"/>
+                    <img width="100%" id="" class="" src="assets/pellizco.png"/>
+                    <img width="100%" id="contorno-b" class="contorno" src="assets/pellizco_contorno.png"/>
+
+                  
+                  
+                    
+                
+
+                    <div class="path-y">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0.5 2 25 15">
+                            <path d="M 3 3 C 3 3 4 2 6 3 C 9 4 15 4 18 3 C 22 2 23 3 23 3 C 23 7 23 12 23 16 C 23 16 22 17 20 16 C 16 14 10 14 6 16 C 4 17 3 16 3 16 C 3 9 3 9 3 3" stroke="#FF0000" stroke-width="0.1" fill="none"/>
+                        </svg>
+                    </div>
+                    <div class="path-w">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0.5 2 25 15">
+                            <path d="M 3 3 C 3 3 4 2 6 3 C 9 4 15 4 18 3 C 22 2 23 3 23 3 C 23 7 23 12 23 16 C 23 16 22 17 20 16 C 16 14 10 14 6 16 C 4 17 3 16 3 16 C 3 9 3 9 3 3" stroke="#FF0000" stroke-width="0.1" fill="none"/>
+                        </svg>
+                    </div>
+
+
+                    <img width="100%" id="contorno-c" class="contorno" src="assets/pellizco_contorno.png"/>
+
+                    
+                </div>
+            </div>
+
+
+            <div id="paleta-anchor" class="paleta-anchor border">
+
+                <div id="aura-a1" class="aura-a"></div>
+                <div id="aura-b1" class="aura-b"></div>
+                <div id="aura-c1" class="aura-c"></div>
+                <div id="aura-d1" class="aura-d"></div>
+                <div id="aura-e1" class="aura-e"></div>
+                <div id="aura-f1" class="aura-f"></div>
+
+             
+                <img  id="paleta" class="" src="assets/paleta.png"/>
+                <div id="paleta-path-y" class="paleta-frame-a">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="7 1 12 23.5">
+                        <path d="M 12 14 L 11 14 C 11 13 11 12 12 11 L 12 10 C 6 9 8 2 13 2 C 18 2 20 9 14 10 L 14 11 C 15 12 15 13 15 14 L 14 14 L 14 23 C 13 24 12 23 12 23 L 12 14" stroke="#FF0000" stroke-width="0.5" fill="none"/>
+                      </svg>
+                </div>
+
+                <div id="paleta-path-y" class="paleta-frame-b">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="7 1 12 23.5">
+                        <path d="M 12 14 L 11 14 C 11 13 11 12 12 11 L 12 10 C 6 9 8 2 13 2 C 18 2 20 9 14 10 L 14 11 C 15 12 15 13 15 14 L 14 14 L 14 23 C 13 24 12 23 12 23 L 12 14" stroke="#FF0000" stroke-width="0.5" fill="none"/>
+                      </svg>
+                </div>
+                
+                <div class="transparent-text">empty</div>
+
+                <div id="aura-a2" class="aura-a"></div>
+                <div id="aura-b2" class="aura-b"></div>
+                <div id="aura-c2" class="aura-c"></div>
+                <div id="aura-d2" class="aura-d"></div>
+                <div id="aura-e2" class="aura-e"></div>
+                <div id="aura-f2" class="aura-f"></div>
+
+            </div>
+
+            <div id="banderilla-anchor" class="banderilla-anchor">
+                <img  id="banderilla" class="" src="assets/banderilla.png"/>
+                <div id="banderilla-path-y" class="">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="18 3 8 23">
+                        <path d="M 19 4 L 25 4 C 25 5 24.3333 5.3333 24 6 L 24 23 C 24.3333 23.6667 25 24 25 25 L 19 25 C 19 24 19.6667 23.6667 20 23 L 20 6 C 19.6667 5.3333 19 5 19 4" stroke="#FF0000" stroke-width="0.5" fill="none"/>
+                    </svg>
+                </div>
+                <!-- <img  id="paleta" class="" src="assets/paleta.png"/> -->
+
+            </div>
+
+
+
+            <div class="radio border">
+                <div id="l1" class="l">
+                    <div id="ll1" class="ll"></div>
+                </div>
+                <div id="l5" class="l">
+                    <div id="ll5" class="ll"></div>
+                </div>
+                <div id="l6" class="l">
+                    <div id="ll6" class="ll"></div>
+                </div>
+           
+            </div>
+
+            <div class="radio-paleta border">
+                <div id="l7" class="l">
+                    <div id="ll7" class="ll"></div>
+                </div>
+                <div id="l8" class="l">
+                    <div id="ll8" class="ll"></div>
+                </div>
+            </div>
+
+            <div class="radio-banderilla border">
+                <div id="l9" class="l">
+                    <div id="ll9" class="ll"></div>
+                </div>
+                <div id="l10" class="l">
+                    <div id="ll10" class="ll"></div>
+                </div>
+                
+            </div>
+
+        </div>
+
+        <div class="home-slider">
+
+    
+
+                <div class="slider-item border" id="slider-item-1">
+                    <div class="container position-relative mx-auto p-0 m-0">
+                        <div class="slider-item-description">
+                            <div class="line-1 f-t text-white Anek">DULCE DE ORIGEN <br> MEXICANO</div>
+                            <div class="blur f-d py-4 px-4 mt-2 text-yellow Anek">Hechos de Tamarindo 100% <br> natural desde 1975</div>
+                        </div>
+                        <img id="mano-pellizco" src="assets/gif_mano_pellizco.gif"/>
+                        <!-- <div id="mano-pellizco-path d-none">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="18.5 2 9 12">
+                                <path d="M 20 11 C 21 11 22 13 22 13 C 24 13 24 13 25 12 C 26 10 26 8 26 6 C 25 4 24 3 22 3 C 20 4 20 5 20 6 C 20 7.6667 20 9.3333 20 11" stroke="#FF0000" stroke-width="0.5" fill="none"/>
+                            </svg>
+                        </div> -->
+                    </div>
+                </div> 
+                <div class="slider-item border" id="slider-item-2">
+                    <div class="container position-relative mx-auto p-0 m-0">
+                        <div class="slider-item-description">
+                            <div class="line-1 f-t text-white Anek ">EL ORIGINAL DULCE <br>DE TAMARINDO</div>
+                            <div class="blur f-d py-4 px-4 mt-2 text-yellow Anek">Que enciende tus sentidos y la <br> diversiñon <span class="text-white">¡PRUÉBALO YA!</span></div>
+                        </div>
+                        <img id="mano-paleta" src="assets/gif_mano_paleta.gif"/>
+                    </div>
+                </div>
+                <div class="slider-item border" id="slider-item-3">
+                    <div class="container position-relative mx-auto p-0 m-0">
+                        <div class="slider-item-description">
+                            <div class="line-1 f-t text-white Anek">SOMOS LOS <br> AUTÉNTICOS DULCES</div>
+                            <div class="blur f-d py-4 px-4 mt-2 text-yellow Anek">Hechos de Tamarindo 100% <br> natural desde 1975</div>
+                        </div>
+                        <img id="mano-banderilla" src="assets/gif_mano_banderilla.gif"/>
+                    </div>
+                </div>
+
+            
+          
+ 
+
+        </div>
+    </div>
+
+    <div class="container-fluid cintillo bg-white">
+       <div class="d-flex align-items-center position-absolute w-100 cintillo-item-a" id="cintillo-item-a">
+           <div id="" class="border cintillo-item">
+                <img width="250px" src="assets/logo.svg"/>
+                <img src="assets/gif_pellizco.gif"/>
+           </div>
+
+            <div id="" class="border cintillo-item">
+                <img width="250px" src="assets/logo.svg"/>
+                <img src="assets/gif_paleta.gif"/>
+            </div>
+
+            <div id="cintillo-item" class="border cintillo-item">
+                <img width="250px" src="assets/logo.svg"/>
+                <img src="assets/gif_banderilla.gif"/>
+            </div>
+       </div>
+
+       <div class="d-flex align-items-center position-absolute w-100 cintillo-item-b" id="cintillo-item-b">
+            <div id="" class="border cintillo-item">
+                <img width="250px" src="assets/logo.svg"/>
+                <img src="assets/gif_pellizco.gif"/>
+            </div>
+
+            <div id="" class="border cintillo-item">
+                <img width="250px" src="assets/logo.svg"/>
+                <img src="assets/gif_paleta.gif"/>
+            </div>
+
+            <div id="cintillo-item" class="border cintillo-item">
+                <img width="250px" src="assets/logo.svg"/>
+                <img src="assets/gif_banderilla.gif"/>
+            </div>
+        </div>
+    </div>
+
+     <div class="container-fluid d-flex">
+
+        
+
+        <div class="col d-flex flex-column align-items-center justify-content-center position-relative pellizco_btn">
+            <video  class="background-video-seccion-2" autoplay loop muted poster="">
+                <source src="assets/seccion2/pelllizco_hover.mp4" type="video/mp4">
+            </video>
+
+            <img  src="/assets/seccion2/pellizco_btn.png"/>
+            <div class="py-3 px-5 cursor-pointer bg-yellow text-red Anek f-d cta">¡LO QUIERO!</div>
+
+            <div class="product-desc d-flex flex-column justify-content-start pe-5">
+                <img width="150px"  src="/assets/seccion2/PRODUCTOS/pellizco_pack.png"/>
+                <div class="text-white f-t">40</div>
+                <div class="text-white line-1 f-d">PIEZAS/PICES</div>
+            </div>
+
+
+        </div>
+        <div class="col d-flex align-items-center justify-content-center position-relative palebola_btn">
+            <video  class="background-video-seccion-2" autoplay loop muted poster="">
+                <source src="assets/seccion2/palebola_hover.mp4" type="video/mp4">
+            </video>
+            <img  src="/assets/seccion2/palebola_btn.png"/>
+            <div class="py-3 px-5 cursor-pointer bg-yellow text-red Anek f-d cta">¡LO QUIERO!</div>
+            <div class="product-desc d-flex flex-column justify-content-start pe-5">
+                <img width="150px"  src="/assets/seccion2/PRODUCTOS/palebola_pack.png"/>
+                <div class="text-white f-t">12</div>
+                <div class="text-white line-1 f-d">PIEZAS/PICES</div>
+            </div>
+        </div>
+
+        <div class="col d-flex align-items-center justify-content-center position-relative banderilla_btn">
+            <video  class="background-video-seccion-2" autoplay loop muted poster="">
+                <source src="assets/seccion2/banderilla_hover.mp4" type="video/mp4">
+            </video>
+            <img  src="/assets/seccion2/banderilla_btn.png"/>
+            <div class="py-3 px-5 cursor-pointer bg-yellow text-red Anek f-d cta">¡LO QUIERO!</div>
+            <div class="product-desc d-flex flex-column justify-content-start pe-5">
+                <img width="150px"  src="/assets/seccion2/PRODUCTOS/banderilla_pack.png"/>
+                <div class="text-white f-t">30</div>
+                <div class="text-white line-1 f-d">PIEZAS/PICES</div>
+            </div>
+        </div>
+
+        <div class="col d-flex align-items-center justify-content-center position-relative pellizccubierta_btn">
+            <video  class="background-video-seccion-2" autoplay loop muted poster="">
+                <source src="assets/seccion2/cubierta_hover.mp4" type="video/mp4">
+            </video>
+            <img  src="/assets/seccion2/cubierta_btn.png"/>
+            <div class="py-3 px-5 cursor-pointer bg-yellow text-red Anek f-d cta">¡LO QUIERO!</div>
+            <div class="product-desc d-flex flex-column justify-content-start pe-5">
+                <img width="150px"  src="/assets/seccion2/PRODUCTOS/cubierta_pack.png"/>
+                <div class="text-white f-t">14</div>
+                <div class="text-white line-1 f-d">PIEZAS/PICES</div>
+            </div>
+        </div>
+
+ 
+      
+
+
+   
+     </div>
+
+     <div class="container-fluid d-flex justify-content-center align-items-center vh-100 bg-white play">
+        <img class="hoja" src="/assets/seccion3/hoja1.png"/>
+        <img class="hoja" src="/assets/seccion3/hoja2.png"/>
+        <img class="hoja" src="/assets/seccion3/hoja3.png"/>
+        <img class="hoja" src="/assets/seccion3/hoja4.png"/>
+        <img class="hoja" src="/assets/seccion3/hoja5.png"/>
+        <img class="hoja" src="/assets/seccion3/hoja7.png"/>
+        <img class="hoja" src="/assets/seccion3/hoja6.png"/>
+      
+        <div class="border position-relative">
+            <img src="/assets/seccion3/gif_jugar_ho.gif"/>
+            <div class="play-btn border"></div>
+        </div>
+        
+
+     </div>
+
+    
+  
+    
+    <script src="js/minified/CustomEase.min.js"></script>
+    <script src="js/minified/EasePack.min.js"></script>
+    <script src="js/gsap.min.js"></script>
+    <script src="js/main.js"></script>
+    
+</body>
+</html>
