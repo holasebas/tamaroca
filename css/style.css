@@ -661,6 +661,7 @@ body::-webkit-scrollbar {
     top: 0;
     bottom: 0;
     z-index: 0;
+    transition: opacity 0.5s;
 }
 #background-video {
     width: 100vw;
@@ -758,6 +759,10 @@ body::-webkit-scrollbar {
 }
 .f-d{
     font-size: 26px;
+   
+}
+.fw-700{
+    font-weight: 600;
 }
 .blur{
     
@@ -845,6 +850,7 @@ body::-webkit-scrollbar {
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
+    height: 75vh;
 }
 
 .pellizco_btn .cta{
@@ -862,6 +868,41 @@ body::-webkit-scrollbar {
     bottom: 200px;
     opacity: 0;
     z-index: 2;
+   
+}
+
+.producto-set-pellizco{
+    position: relative;
+    width: 95%;
+    height: 100%;
+}
+
+.producto-set-pellizco img{
+    position: absolute;
+    
+}
+.producto-set-pellizco img:nth-child(1){
+    width: 250px;
+    top: 20%;
+    left: 60%;
+    transform: translate(-50%, -50%) rotate(-15deg);
+    animation: pulse3 1s infinite;
+}
+.producto-set-pellizco img:nth-child(2){
+    width: 250px;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: float 3s infinite;
+    animation-timing-function: linear;
+    
+}
+.producto-set-pellizco img:nth-child(3){
+    width: 300px;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(20deg);
+    animation: pulse3 1s infinite;
 }
 
 
@@ -891,6 +932,39 @@ body::-webkit-scrollbar {
     opacity: 0;
     z-index: 2;
 }
+.producto-set-paleta{
+    position: relative;
+    width: 95%;
+    height: 100%;
+}
+
+.producto-set-paleta img{
+    position: absolute;
+    
+}
+.producto-set-paleta img:nth-child(1){
+    width: 220px;
+    top: 36%;
+    left: 38%;
+    transform: translate(-50%, -50%) rotate(-5deg);
+    animation: pulse3 1s infinite;
+}
+.producto-set-paleta img:nth-child(2){
+    width: 180px;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: float 3s infinite;
+    animation-timing-function: linear;
+    
+}
+.producto-set-paleta img:nth-child(3){
+    width: 200px;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%) rotate(10deg);
+    animation: pulse3 1s infinite;
+}
 
 
 /* BANDERILLA */
@@ -919,7 +993,39 @@ body::-webkit-scrollbar {
     opacity: 0;
     z-index: 2;
 }
+.producto-set-banderilla{
+    position: relative;
+    width: 95%;
+    height: 100%;
+}
 
+.producto-set-banderilla img{
+    position: absolute;
+    
+}
+.producto-set-banderilla img:nth-child(1){
+    width: 150px;
+    top: 36%;
+    left: 40%;
+    transform: translate(-50%, -50%) rotate(-5deg);
+    animation: pulse3 1s infinite;
+}
+.producto-set-banderilla img:nth-child(2){
+    width: 80px;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: float 3s infinite;
+    animation-timing-function: linear;
+    
+}
+.producto-set-banderilla img:nth-child(3){
+    width: 160px;
+    top: 45%;
+    left: 62%;
+    transform: translate(-50%, -50%) rotate(5deg);
+    animation: pulse3 1s infinite;
+}
 
 
 /* CUBIERTA */
@@ -948,6 +1054,44 @@ body::-webkit-scrollbar {
     opacity: 0;
     z-index: 2;
 }
+
+.producto-set-cubierta{
+    position: relative;
+    width: 95%;
+    height: 100%;
+}
+
+.producto-set-cubierta img{
+    position: absolute;
+    
+}
+.producto-set-cubierta img:nth-child(1){
+    width: 280px;
+    top: 35%;
+    left: 40%;
+    transform: translate(-50%, -50%) rotate(0deg);
+    animation: pulse3 1s infinite;
+}
+.producto-set-cubierta img:nth-child(2){
+    width: 260px;
+    top: 52%;
+    left: 60%;
+    transform: translate(-50%, -50%) rotate(0deg);
+    animation: pulse3 1s infinite;
+    
+}
+.producto-set-cubierta img:nth-child(3){
+    width: 250px;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: float 3s infinite;
+    animation-timing-function: linear;
+}
+
+
+
+
 
 .play{
     position: relative;
@@ -1218,3 +1362,41 @@ body::-webkit-scrollbar {
     }
   }
 
+  @keyframes pulse3 {
+    0% {
+      opacity: 1;
+    }
+    10% {
+        opacity: 0.7;
+    }
+    20% {
+      opacity: 1;
+    }
+    30% {
+        opacity: 0.7;
+    }
+    100% {
+        opacity: 1;
+    }
+  }
+  @keyframes float {
+    0% {
+        top: 40%;
+    }
+    25% {
+        top: 41%;
+    }
+    50% {
+        top: 40%;
+    }
+    75% {
+        top: 39%;
+    }
+    100% {
+        top: 40%;
+       
+    }
+  
+}
+
+  
