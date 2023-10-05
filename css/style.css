@@ -16,7 +16,7 @@ body::-webkit-scrollbar {
     scrollbar-width: none;
     overflow-y: scroll; 
 }
-    .hide-scroll::-webkit-scrollbar{
+.hide-scroll::-webkit-scrollbar{
     display: none;
 }
 @font-face {
@@ -843,9 +843,7 @@ body::-webkit-scrollbar {
 .text-red{
     color: #E4251D;
 }
-.bg-yellow{
-    background-color: yellow !important;
-}
+
 .bg-yellow{
     background-color: #FCDC00;
 }
@@ -1128,7 +1126,7 @@ body::-webkit-scrollbar {
 }
 
 .cta{
-    background-color: yellow;
+    background-color: #FCDC00;
 }
 .cursor-pointer{
     cursor: pointer;
