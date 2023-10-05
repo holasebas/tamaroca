@@ -4,6 +4,10 @@ body {
     scrollbar-width: none;
     overflow-y: scroll; 
 }
+a {
+    all: unset;
+    display: contents;
+}
 body::-webkit-scrollbar {
     display: none;
 }
@@ -837,12 +841,23 @@ body::-webkit-scrollbar {
     display: inline-block;
 }
 .text-red{
-    color: red;
+    color: #E4251D;
 }
 .bg-yellow{
     background-color: yellow !important;
 }
+.bg-yellow{
+    background-color: #FCDC00;
+}
+.productos-title{
+    position: absolute;
+    z-index: 1;
+    font-size: 80px;
+    font-weight: 800;
+    color: white;
+    text-align: center;
 
+}
 /* PELLIZCO */
 .pellizco_btn{
     
@@ -850,7 +865,7 @@ body::-webkit-scrollbar {
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 75vh;
+    height: 90vh;
 }
 
 .pellizco_btn .cta{
@@ -913,7 +928,7 @@ body::-webkit-scrollbar {
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 75vh;
+    height: 90vh;
 }
 .palebola_btn .product-img{
     position: relative;
@@ -975,7 +990,7 @@ body::-webkit-scrollbar {
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 75vh;
+    height: 90vh;
 }
 .banderilla_btn .product-img{
     position: relative;
@@ -1037,7 +1052,7 @@ body::-webkit-scrollbar {
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 75vh;
+    height: 90vh;
 }
 .pellizccubierta_btn .product-img{
     position: relative;
@@ -1408,6 +1423,9 @@ body::-webkit-scrollbar {
     .banderilla_btn, 
     .pellizccubierta_btn{
         height: 100vh;
+    }
+    .productos-title{
+        font-size: 42px;
     }
  }
 
