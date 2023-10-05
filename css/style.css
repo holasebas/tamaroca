@@ -869,6 +869,7 @@ body::-webkit-scrollbar {
 .pellizco_btn .cta{
     position: absolute;
     bottom: 100px;
+    width: 250px;
     z-index: 2;
 }
 .pellizco_btn:hover > .background-video-seccion-2, 
@@ -881,6 +882,7 @@ body::-webkit-scrollbar {
     bottom: 200px;
     opacity: 0;
     z-index: 2;
+    
    
 }
 
@@ -934,6 +936,7 @@ body::-webkit-scrollbar {
 .palebola_btn .cta{
     position: absolute;
     bottom: 100px;
+    width: 250px;
     z-index: 2;
 }
 .palebola_btn:hover > .background-video-seccion-2,
@@ -996,6 +999,7 @@ body::-webkit-scrollbar {
 .banderilla_btn .cta{
     position: absolute;
     bottom: 100px;
+    width: 250px;
     z-index: 2;
 }
 .banderilla_btn:hover > .background-video-seccion-2,
@@ -1007,6 +1011,7 @@ body::-webkit-scrollbar {
     bottom: 200px;
     opacity: 0;
     z-index: 2;
+    width: 250px;
 }
 .producto-set-banderilla{
     position: relative;
@@ -1058,6 +1063,7 @@ body::-webkit-scrollbar {
 .pellizccubierta_btn .cta{
     position: absolute;
     bottom: 100px;
+    width: 250px;
     z-index: 2;
 }
 .pellizccubierta_btn:hover > .background-video-seccion-2,
@@ -1065,6 +1071,7 @@ body::-webkit-scrollbar {
     opacity: 1;
 }
 .pellizccubierta_btn .product-desc{
+    width: 250px;
     position: absolute;
     bottom: 200px;
     opacity: 0;
