@@ -913,6 +913,7 @@ body::-webkit-scrollbar {
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
+    height: 75vh;
 }
 .palebola_btn .product-img{
     position: relative;
@@ -974,6 +975,7 @@ body::-webkit-scrollbar {
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
+    height: 75vh;
 }
 .banderilla_btn .product-img{
     position: relative;
@@ -1035,6 +1037,7 @@ body::-webkit-scrollbar {
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
+    height: 75vh;
 }
 .pellizccubierta_btn .product-img{
     position: relative;
@@ -1398,5 +1401,14 @@ body::-webkit-scrollbar {
     }
   
 }
+
+@media (max-width: 576px) { 
+    .pellizco_btn,
+    .palebola_btn, 
+    .banderilla_btn, 
+    .pellizccubierta_btn{
+        height: 100vh;
+    }
+ }
 
   
