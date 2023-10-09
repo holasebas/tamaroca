@@ -295,6 +295,10 @@ function cintillo_animation(speed){
 
 
 
+
+
+
+
 const init = () => {
     pillizco_animation()
 
@@ -308,7 +312,6 @@ const init = () => {
     }, 7700 * speed)
 
 }
-
 
 init();
 setInterval(()=>{
