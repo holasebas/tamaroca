@@ -1330,7 +1330,6 @@ body::-webkit-scrollbar {
     }
   
 }
-
 @keyframes hoja-5 {
     0% {
         right:30%;
@@ -1348,7 +1347,6 @@ body::-webkit-scrollbar {
         transform: rotate(-15deg);
     }
 }
-
 @keyframes hoja-6 {
     0% {
         left:30%;
@@ -1368,7 +1366,6 @@ body::-webkit-scrollbar {
     }
   
 }
-
 @keyframes hoja-7 {
     0% {
         top:10%;
@@ -1401,8 +1398,6 @@ body::-webkit-scrollbar {
     }
   
 }
-
-
 @keyframes banderilla-y {
     from {
         stroke-dashoffset: 10;
@@ -1412,7 +1407,6 @@ body::-webkit-scrollbar {
         stroke-dashoffset: 50;
     }
 }
-
 @keyframes path-y {
     from {
         stroke-dashoffset: 0;
@@ -1441,9 +1435,8 @@ body::-webkit-scrollbar {
     80% {
       opacity: 1;
     }
-  }
-
-  @keyframes pulse2 {
+}
+@keyframes pulse2 {
     0% {
       opacity: 1;
     }
@@ -1453,9 +1446,8 @@ body::-webkit-scrollbar {
     40% {
       opacity: 1;
     }
-  }
-
-  @keyframes pulse3 {
+}
+@keyframes pulse3 {
     0% {
       opacity: 1;
     }
@@ -1471,8 +1463,8 @@ body::-webkit-scrollbar {
     100% {
         opacity: 1;
     }
-  }
-  @keyframes float {
+}
+@keyframes float {
     0% {
         top: 40%;
     }
@@ -1541,6 +1533,206 @@ body::-webkit-scrollbar {
    
     
 }
+@media (max-width: 992px) and (orientation: landscape) {
+
+    .productos-title{
+        font-size: 42px;
+    }
+    .blur{
+        padding: 10px 25px !important;
+    }
+    .f-t{
+        font-size: 32px;
+        font-weight: 700;
+  
+    }
+    .f-d{
+        font-size: 16px;
+    }
+    #mano-pellizco{
+        right: 10px;
+        width: 120px;
+    }
+    #mano-paleta{
+        width: 100px;
+    }
+    #mano-banderilla{
+        width: 150px;
+    }
+    .pellizco-anchor{
+        height: 50%;    
+    }
+    #pellizco{
+        width: 180px;
+        left: -90px;
+    }
+    .radio{
+        width: 50vw;
+        height: 50vw;
+        left: calc(50% - 25vw);
+  
+    }
+    .l{
+        display: none;
+    }
+
+
+    #paleta{
+        opacity: 1 !important;
+        left:calc(50% - 66px);
+        top: calc(50% - 150px);
+        width: 132px;
+    }
+    #paleta-path-y{
+        left: calc(50% - 84px);
+        top: calc(50% - 164.4px);
+        width: 170.4px;
+    }
+    #banderilla{
+        left:calc(50% - 30px);
+        top: calc(50% - 198px);
+        width: 60px;
+    }
+    #banderilla-path-y{
+        left: calc(50% - 73.8px);
+        top: calc(50% - 213.6px);
+        width: 147px;
+    }
+  
+    
+    .pellizco_btn,
+    .palebola_btn, 
+    .banderilla_btn, 
+    .pellizccubierta_btn{
+        width: 25%;
+        height: 100vh;
+    }
+
+    .pellizco_btn .cta,
+    .palebola_btn .cta,
+    .banderilla_btn .cta,
+    .pellizccubierta_btn .cta {
+        width: 120px;
+        font-size: 16px;
+        bottom: 20px;
+        padding: 10px 15px !important;
+    }
+
+
+    /* PELLIZCO */
+    .producto-set-pellizco img:nth-child(1){
+        width: 100px;
+    }
+    .producto-set-pellizco img:nth-child(2){
+        width: 100px;
+    }
+    .producto-set-pellizco img:nth-child(3){
+        width: 120px;
+    }
+
+    .pellizco_btn .product-desc{
+        bottom: 100px !important;
+    }
+    .pellizco_btn .product-desc img{
+        width: 80px;
+    }
+   
+   
+    /* PALETA */
+    .producto-set-paleta img:nth-child(1){
+        width: 88px;
+    }
+    .producto-set-paleta img:nth-child(2){
+        width: 72px;   
+    }
+    .producto-set-paleta img:nth-child(3){
+        width: 80px;
+    }
+    .palebola_btn .product-desc{
+        bottom: 100px !important;
+    }
+    .palebola_btn .product-desc img{
+        width: 80px;
+    }
+    /* BANDERILLA */
+    .producto-set-banderilla img:nth-child(1){
+        width: 60px;
+    }
+    .producto-set-banderilla img:nth-child(2){
+        width:32px;
+    }
+    .producto-set-banderilla img:nth-child(3){
+        width: 64px;
+    }
+    .banderilla_btn .product-desc{
+        width: 100px;
+        bottom: 100px !important;
+    }
+    .banderilla_btn .product-desc img{
+        width: 68px;
+    }
+    
+    /* CUBIERTA */
+    .producto-set-cubierta img:nth-child(1){
+        width: 112px;
+    }
+    .producto-set-cubierta img:nth-child(2){
+        width: 104px;
+    }
+    .producto-set-cubierta img:nth-child(3){
+        width: 100px;
+    }
+    .pellizccubierta_btn .product-desc{
+        bottom: 100px !important;
+        width: 100px;
+    }
+    .pellizccubierta_btn .product-desc img{
+        width: 94px;
+    }
+
+
+    /* HOJAS */
+    .hoja{
+        transform: scale(0.4) !important;
+    }
+    .hoja:nth-child(1){
+        top: 20px;
+        left: 20px;
+    }
+    .hoja:nth-child(2){
+        right: 0px;
+        top: 10px;
+    }
+    .hoja:nth-child(3){
+        right: 0px;
+        top: 50%;
+    }
+    .hoja:nth-child(4){
+        right: 0px;
+        top: 50%;
+    }
+    .hoja:nth-child(5){
+        left: 0px;
+        top: 50%;
+    }
+    .hoja:nth-child(6){
+        left: 0px;
+        top: 50%;
+    }
+    .hoja:nth-child(7){
+        right: 10%;
+        
+
+    }
+    .hoja:nth-child(8){
+        right: 0px;
+        opacity: 0 !important;
+    }
+    .hoja:nth-child(9){
+        left: 0px;
+    }
+
+}
 @media (max-width: 768px) { 
     .cintillo{
         height: 45px;
@@ -1551,13 +1743,14 @@ body::-webkit-scrollbar {
     .play-video{
         width: 100% !important;
     }
- }
+}
 @media (max-width: 576px) { 
     .pellizco_btn,
     .palebola_btn, 
     .banderilla_btn, 
     .pellizccubierta_btn{
         height: 100vh;
+        min-height: 700px;
     }
     .productos-title{
         font-size: 42px;
@@ -1565,7 +1758,7 @@ body::-webkit-scrollbar {
     .f-t{
         font-size: 20px;
         font-weight: 700;
-        padding-left: 20px;
+       
     }
     .f-d{
         font-size: 16px;
@@ -1659,10 +1852,8 @@ body::-webkit-scrollbar {
 
  
     .radio-paleta{
-        position: absolute;
         width: 100vw;
         height: 100vw;
- 
         top: calc(50% - 60vw);;
         left: calc(50% - 50vw);
 
@@ -1671,16 +1862,10 @@ body::-webkit-scrollbar {
         height: 100%;
     }
     #banderilla{
-    
-
-        position: absolute;
+      
         left:calc(50% - 30px);
         top: calc(50% - 198px);
-    
         width: 60px;
-    
-    
-        
     }
     #banderilla-path-y{
     
@@ -1691,20 +1876,14 @@ body::-webkit-scrollbar {
     }
 
     .radio-banderilla{
-        position: absolute;
         width: 100vw;
         height: 100vw;
-        border-radius: 50%;
         top: calc(50% - 50vw);;
         left: calc(50% - 50vw);
-        transform: rotate(0deg);
-        /* border: 1px solid white !important; */
     }
     #l9, #l10{
-  
         left: calc(50% + 90px);
         top: calc(50% - 90px);
-
         width: 180px;
         height: 180px;
         /* background-color: rgba(255, 255, 255, 0.1); */
@@ -1730,71 +1909,48 @@ body::-webkit-scrollbar {
     .hoja:nth-child(1){
         top: 20px;
         left: 20px;
-        animation-name: hoja-8;
-        animation-timing-function: linear;
-        animation-iteration-count: infinite;
-        animation-duration: 3s;
     }
     .hoja:nth-child(2){
         right: 0px;
         top: 10px;
-        animation-name: hoja-8;
-        animation-timing-function: linear;
-        animation-iteration-count: infinite;
-        animation-duration: 3s;
     }
- 
     .hoja:nth-child(3){
         right: 0px;
         top: 50%;
-        animation-name: hoja-8;
-        animation-timing-function: linear;
-        animation-iteration-count: infinite;
-        animation-duration: 3s;
     }
     .hoja:nth-child(4){
         right: 0px;
         top: 50%;
-        animation-name: hoja-4;
-        animation-timing-function: linear;
-        animation-iteration-count: infinite;
-        animation-duration: 3s;
     }
     .hoja:nth-child(5){
         left: 0px;
         top: 50%;
-        animation-name: hoja-9;
-        animation-timing-function: linear;
-        animation-iteration-count: infinite;
-        animation-duration: 3s;
     }
     .hoja:nth-child(6){
         left: 0px;
         top: 50%;
-        
     }
     .hoja:nth-child(7){
         right: 10%;
-      
-        
+
     }
     .hoja:nth-child(8){
         right: 0px;
-        
-      
-        
     }
     .hoja:nth-child(9){
         left: 0px;
-        
+    }
+    .play-call{
       
+        transform: rotate(90deg) scale(1.5);
         
     }
+    
  
    
   
    
    
- }
+}
 
   
