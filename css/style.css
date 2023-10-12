@@ -19,6 +19,22 @@ body::-webkit-scrollbar {
 .hide-scroll::-webkit-scrollbar{
     display: none;
 }
+.arrow-down{
+    z-index: 1;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: arrow;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 0.8s;
+}
+.arrow-down svg{
+    font-size: 50px;
+}
 @font-face {
     font-family: "Anek";
     src: url("../assets/Anek.ttf");
@@ -988,7 +1004,9 @@ body::-webkit-scrollbar {
 
 
 /* BANDERILLA */
-
+.banderilla_btn .call{
+    display: none;
+}
 .banderilla_btn{
     background-image: url(../assets/seccion2/fondos-prods_03.png);
     background-position: center center;
@@ -999,7 +1017,9 @@ body::-webkit-scrollbar {
 .banderilla_btn .product-img{
     position: relative;
 }
+
 .banderilla_btn .cta{
+
     position: absolute;
     bottom: 100px;
     width: 250px;
@@ -1010,6 +1030,10 @@ body::-webkit-scrollbar {
 .banderilla_btn:hover > .product-desc{
     opacity: 1;
 }
+.banderilla_btn:hover > .call{
+    display: contents;
+}
+
 .banderilla_btn .product-desc{
     position: absolute;
     bottom: 200px;
@@ -1256,7 +1280,22 @@ body::-webkit-scrollbar {
 }
 
 
-
+@keyframes arrow{
+    0% {
+     
+       bottom: -5px;
+    }
+    50% {
+     
+        bottom: 0px;
+    }
+    100% {
+      
+        bottom: -5px;
+       
+    }
+  
+}
 @keyframes hoja-1 {
     0% {
         top: 50px;
