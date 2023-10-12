@@ -905,6 +905,7 @@ body::-webkit-scrollbar {
 }
 
 .producto-set-pellizco{
+    top: 35px;
     position: relative;
     width: 95%;
     height: 100%;
@@ -969,6 +970,7 @@ body::-webkit-scrollbar {
     z-index: 2;
 }
 .producto-set-paleta{
+    top: 35px;
     position: relative;
     width: 95%;
     height: 100%;
@@ -1021,7 +1023,7 @@ body::-webkit-scrollbar {
 .banderilla_btn .cta{
 
     position: absolute;
-    bottom: 100px;
+    bottom: 50px;
     width: 250px;
     z-index: 2;
     text-align: center;
@@ -1042,6 +1044,7 @@ body::-webkit-scrollbar {
     width: 250px;
 }
 .producto-set-banderilla{
+    top: 35px;
     position: relative;
     width: 95%;
     height: 100%;
@@ -1108,6 +1111,7 @@ body::-webkit-scrollbar {
 }
 
 .producto-set-cubierta{
+    top: 35px;
     position: relative;
     width: 95%;
     height: 100%;
