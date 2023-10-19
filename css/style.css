@@ -1777,6 +1777,8 @@ body::-webkit-scrollbar {
 
 }
 @media (max-width: 768px) { 
+
+
     .cintillo{
         height: 45px;
     }
@@ -1985,8 +1987,8 @@ body::-webkit-scrollbar {
     }
     .play-call{
       
-        transform: rotate(90deg) scale(1.5);
-        
+        /* transform: rotate(90deg) scale(1.5);
+         */
     }
     
  
